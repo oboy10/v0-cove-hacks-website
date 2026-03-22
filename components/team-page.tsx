@@ -18,7 +18,7 @@ interface Team {
 const LEAD: TeamMember = {
   name: "Shlok Madhekar",
   role: "Lead Organizer",
-  link: "https://www.instagram.com/shlok.madhekar/",
+  link: "https://shlok.vercel.app/",
 };
 
 const EXEC_TEAM: Team = {
