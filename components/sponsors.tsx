@@ -24,6 +24,12 @@ const REAL_SPONSORS: RealSponsor[] = [
     url: "https://mlh.link/MLH-PureButtons-hackathons",
     tier: "inkind",
   },
+  {
+    name: "HackPilot",
+    logo: "/sponsor-logos/in-kind/hackpilot.png",
+    url: "https://hackpilot.io",
+    tier: "inkind",
+  },
 ];
 
 const GOLD_SPONSORS = REAL_SPONSORS.filter((s) => s.tier === "gold");
