@@ -65,9 +65,9 @@ const SUB_TEAMS: Team[] = [
         link: "https://www.linkedin.com/in/anish-dhamija-5b93712b3/",
       },
       {
-        name: "Varshith Gude",
+        name: "Apply Now",
         role: "Outreach",
-        link: "https://varshithgude.me",
+        link: "https://forms.gle/J6DzSdhLEGn8G1up8",
       },
       {
         name: "Pranauv Muthuraman",
@@ -75,9 +75,9 @@ const SUB_TEAMS: Team[] = [
         link: "https://www.linkedin.com/in/rouler4wd?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       },
       {
-        name: "Andrew Savio",
+        name: "Apply Now",
         role: "Outreach",
-        link: "https://www.linkedin.com/in/andrew-savio-665a14295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        link: "https://forms.gle/J6DzSdhLEGn8G1up8",
       },
       {
         name: "Apply Now",
@@ -159,9 +159,9 @@ const SUB_TEAMS: Team[] = [
         link: "https://www.linkedin.com/in/dhiaan",
       },
       {
-        name: "Shreyan Mitra",
+        name: "Varshith Gude",
         role: "Coordinator",
-        link: "https://www.linkedin.com/in/shreyan-m-8910172b7",
+        link: "https://varshithgude.me",
       },
       {
         name: "Apply Now",
@@ -191,9 +191,9 @@ const SUB_TEAMS: Team[] = [
         link: "https://www.linkedin.com/in/devin-liu-6aa1b9325",
       },
       {
-        name: "Apply Now",
+        name: "Shreyan Mitra",
         role: "Volunteer",
-        link: "https://forms.gle/J6DzSdhLEGn8G1up8",
+        link: "https://www.linkedin.com/in/shreyan-m-8910172b7",
       },
       {
         name: "Apply Now",
