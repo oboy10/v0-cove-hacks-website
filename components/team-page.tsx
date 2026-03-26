@@ -65,14 +65,14 @@ const SUB_TEAMS: Team[] = [
         link: "https://www.linkedin.com/in/anish-dhamija-5b93712b3/",
       },
       {
-        name: "Apply Now",
-        role: "Outreach",
-        link: "https://forms.gle/J6DzSdhLEGn8G1up8",
-      },
-      {
         name: "Pranauv Muthuraman",
         role: "Outreach",
         link: "https://www.linkedin.com/in/rouler4wd?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      },
+      {
+        name: "Apply Now",
+        role: "Outreach",
+        link: "https://forms.gle/J6DzSdhLEGn8G1up8",
       },
       {
         name: "Apply Now",
