@@ -18,12 +18,7 @@ const REAL_SPONSORS: RealSponsor[] = [
     url: "https://crackd.it/cove",
     tier: "gold",
   },
-  {
-    name: "Pure Buttons",
-    logo: "/sponsor-logos/in-kind/Pure-Buttons-Blue-Gradient-Logo-RGB.png",
-    url: "https://mlh.link/MLH-PureButtons-hackathons",
-    tier: "inkind",
-  },
+
   {
     name: "HackPilot",
     logo: "/sponsor-logos/in-kind/hackpilot.png",

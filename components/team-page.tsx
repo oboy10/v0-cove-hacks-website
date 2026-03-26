@@ -122,9 +122,9 @@ const SUB_TEAMS: Team[] = [
         link: "https://www.linkedin.com/in/giavimal/",
       },
       {
-        name: "Apply Now",
+        name: "Shuvam Kumar Das",
         role: "Content",
-        link: "https://forms.gle/J6DzSdhLEGn8G1up8",
+        link: "#",
       },
       {
         name: "Apply Now",
@@ -215,8 +215,8 @@ function MemberRow({
   return (
     <a
       href={member.link}
-      target="_blank"
-      rel="noopener noreferrer"
+      target={member.link === "#" ? undefined : "_blank"}
+      rel={member.link === "#" ? undefined : "noopener noreferrer"}
       className={`group flex items-center justify-between py-3.5 -mx-3 px-3 rounded-lg transition-colors ${
         isDark
           ? "border-b border-white/[0.08] last:border-b-0 hover:bg-white/[0.04]"
