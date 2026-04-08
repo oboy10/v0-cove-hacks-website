@@ -164,9 +164,9 @@ const SUB_TEAMS: Team[] = [
         link: "https://varshithgude.me",
       },
       {
-        name: "Apply Now",
-        role: "Coordinator",
-        link: "https://forms.gle/J6DzSdhLEGn8G1up8",
+        name: "Om Anand Khaunte",
+        role: "Tech Coordinator",
+        link: "#",
       },
       {
         name: "Apply Now",
