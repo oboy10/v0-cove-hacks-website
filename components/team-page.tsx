@@ -166,7 +166,7 @@ const SUB_TEAMS: Team[] = [
       {
         name: "Om Anand Khaunte",
         role: "Tech Coordinator",
-        link: "#",
+        link: "https://www.linkedin.com/in/om-anand-khaunte",
       },
       {
         name: "Apply Now",
