@@ -212,7 +212,7 @@ export const ProspectusDocument = () => (
         </View>
 
         <Text style={{ fontSize: 14, color: "#fff", marginBottom: 5 }}>
-          June 26-28, 2026
+          July 17-19, 2026
         </Text>
         <Text style={{ fontSize: 14, color: COLORS.textMuted }}>
           San Francisco, CA

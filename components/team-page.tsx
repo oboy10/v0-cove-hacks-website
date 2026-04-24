@@ -166,7 +166,7 @@ const SUB_TEAMS: Team[] = [
       {
         name: "Om Anand Khaunte",
         role: "Tech Coordinator",
-        link: "#",
+        link: "https://www.linkedin.com/in/om-anand-khaunte",
       },
       {
         name: "Apply Now",
@@ -223,18 +223,18 @@ function MemberRow({
           : "hover:bg-[#1a1a1a]/[0.03]"
       }`}
     >
-      <div className="flex items-baseline gap-3 min-w-0">
+      <div className="flex items-baseline gap-2 min-w-0">
         <span
-          className={`font-sans text-[13px] font-semibold truncate transition-colors ${
+          className={`font-sans text-[13px] font-semibold transition-colors ${
             isDark
               ? "text-white"
               : "text-[#1a1a1a]/80 group-hover:text-[#1a1a1a]"
-          }`}
+          } truncate`}
         >
           {member.name}
         </span>
         <span
-          className={`font-mono text-[10px] tracking-wider uppercase shrink-0 ${
+          className={`font-mono text-[9px] sm:text-[10px] tracking-wider uppercase shrink-0 ${
             isDark ? "text-white/35" : "text-[#1a1a1a]/30"
           }`}
         >
@@ -263,7 +263,7 @@ export function TeamPage() {
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[350px] bg-[#6B9BD2]/[0.06] rounded-full blur-[120px] -z-0 pointer-events-none" />
 
         <div
-          className={`relative z-10 max-w-5xl mx-auto transition-all duration-700 ease-out ${
+          className={`relative z-10 max-w-6xl xl:max-w-7xl mx-auto transition-all duration-700 ease-out ${
             mounted ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
           }`}
         >
@@ -282,7 +282,7 @@ export function TeamPage() {
       {/* Bento Grid — all teams */}
       <section className="px-6 pb-20 sm:pb-28">
         <div
-          className={`max-w-5xl mx-auto transition-all duration-700 delay-100 ease-out ${
+          className={`max-w-6xl xl:max-w-7xl mx-auto transition-all duration-700 delay-100 ease-out ${
             mounted ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
           }`}
         >
@@ -350,8 +350,8 @@ export function TeamPage() {
             </div>
           </div>
 
-          {/* Row 2 — 3 / 4 / 4 / 3 split on 14-col grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[3fr_4fr_4fr_3fr] gap-4">
+          {/* Row 2 — give Logistics more room */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[3fr_4fr_6fr_2fr] gap-4">
             {/* Design — cream */}
             <div className="bg-[#FAFAF7] rounded-2xl p-6 sm:p-7 flex flex-col">
               <div className="mb-5">
