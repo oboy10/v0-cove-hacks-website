@@ -48,7 +48,7 @@ export function Hero() {
           </h1>
 
           <p className="font-mono text-xs sm:text-sm text-white/60 mt-5 tracking-wide">
-            July 17&ndash;19, 2026 &middot; Bay Area, CA
+            July 24&ndash;26, 2026 &middot; Bay Area, CA
           </p>
         </div>
 
